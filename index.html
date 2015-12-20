@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Movie Review">
+    <meta name="author" content="Suleiman">
+
+    <title>The Movie Reviews</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/theme.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Movie</span> Reviews
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#current">Now playing</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header id="header_movie" class="intro">
+        <div class="intro-body">
+                <div class="row text-left">
+                  <div class="container" style="padding: 50px 0 100px 0;">
+
+                    <div class="col-md-8">
+                        <h1 id="header_title" class="brand-heading" style="margin: 0">Movie Title</h1>
+                        <p id="header_desc">Description</p>
+                        <!-- <p class="intro-text"><br></p> -->
+
+                        <!-- Transition this button to review page -->
+                        <a href="review.html" class="btn btn-default inverse page-scroll" onclick="goNext('review.html',0); return false">Read Review
+                            <!-- <i class="fa fa-angle-double-down animated"></i> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Current Section -->
+    <!-- Shows currently running movies (apart from the 1st movie on top) -->
+    <section id="current" class="container content-section">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2>Now Playing</h2>
+        </div>
+        <!-- Add spacer for grid columns -->
+        <div class="col-lg-4">
+          <div class="card">
+                    <div class="card-image">
+                      <img id="current_img_1" src="img/header.jpg">
+                      <span id="current_title_1" class="card-title">Movie 1</span>
+                    </div>
+                    <div class="card-content">
+                      <p id="current_descr_1" style="">I am a very simple card. I am good at containing small bits of information.
+                      I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action text-right">
+                      <a href="review.html" onclick="goNext('review.html',1); return false">Review</a>
+                    </div>
+                  </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+                    <div class="card-image">
+                      <img id="current_img_2" src="img/header.jpg">
+                      <span id="current_title_2" class="card-title">Movie 2</span>
+                    </div>
+                    <div class="card-content">
+                      <p id="current_descr_2">I am a very simple card. I am good at containing small bits of information.
+                      I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action text-right">
+                      <a href="review.html" onclick="goNext('review.html',2); return false">Review</a>
+                    </div>
+                  </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+                    <div class="card-image">
+                      <img id="current_img_3" src="img/header.jpg">
+                      <span id="current_title_3" class="card-title">Movie 3</span>
+                    </div>
+                    <div class="card-content">
+                      <p id="current_descr_3">I am a very simple card. I am good at containing small bits of information.
+                      I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action text-right">
+                      <a href="review.html" onclick="goNext('review.html',3); return false">Review</a>
+                    </div>
+                  </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About</h2>
+
+                <p>
+'The Movie Reviews' is a simple yet effective  website with a single intention. To provide reliable movie reviews from actual movie goers. A one stop shop for the latest movies running in theatre. The reviews found here are from trusted sources. This modern website is responsive so the experience remains, no matter which device.
+                </p>
+               <!--  <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Us</h2>
+                <p>Feel free to email us to provide some feedback on our website, give us suggestions, or to just say hello!</p>
+                <p>Mail to: <a href="mailto:info@grafixartist.com">info@grafixartist.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/Suleiman_194" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/u/0/+SuleimanAliShakir/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p class="txt-hint">Copyright &copy; Movie Reviews 2015</p>
+        </div>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- My Theme JavaScript -->
+    <script src="js/theme.js"></script>
+
+    <!-- Movie Database JavaScript -->
+    <script type="text/javascript" src="js/themoviedb.min.js"></script>
+
+    <!-- Our custom overrides using Movie Db -->
+    <script  type="text/javascript" src="js/mymovie.js"></script>
+
+</body>
+
+</html>
