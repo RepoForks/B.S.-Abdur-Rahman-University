@@ -1,15 +1,15 @@
 DEVELOPED IN B.S.ABDUR RAHMAN UNIVERSITY--- MOVIE REVIEW WEBSITE
 
 INSTRUCTOR
-  Dr.R.SRIRAM
-
+	name
+	
 TEAM MEMBERS
-	SULEIMAN ALI SHAKIR
+	Suleiman Ali Shakir
 	120071601104
-
-	SURENDHAR BABU
+	
+	Surendhar Babu
 	120071601106
-
+	
 MOVIE REVIEW WEBSITE
 
 1.  A complete functional movie review website. It serves users movies which are just released in theatres. Users can read its relevant review also also see corresponding details such as movie cast, rating, genre and an image gallery for movie stills.
