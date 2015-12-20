@@ -1,6 +1,17 @@
-MOVIE REVIEW WEBSITE
+DEVELOPED IN B.S.ABDUR RAHMAN UNIVERSITY--- MOVIE REVIEW WEBSITE
 
-1.  A complete functional movie review website. It serves users movies which are just released in theatres. Users can read its relevant review also also see corresponding details such as movie cast, rating, genre and an image gallery for movie stills.
+INSTRUCTOR
+	N. SABIYATH FATHIMA
+
+TEAM MEMBERS
+	SULEIMAN ALI SHAKIR
+	120071601104
+
+	SURENDHAR BABU
+	120071601106
+
+MOVIE REVIEW WEBSITE
+1.	A complete functional movie review website. It serves users movies which are just released in theatres. Users can read its relevant review also also see corresponding details such as movie cast, rating, genre and an image gallery for movie stills.
 
 2.	Movie details are fetched from an existing online database that helps us fetch reliable real-time data about movies. The website gets updated automatically over time so the content on the website remains fresh always.
 
