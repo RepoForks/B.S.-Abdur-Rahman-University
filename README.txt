@@ -20,3 +20,6 @@ MOVIE REVIEW WEBSITE
 4.	It also integrates a commenting system powered by IntenseDebate. This is a powerful commenting system similar to Disqus, which has social media integrated into it. It features advanced comment monitoring and spam detection filters. All this helps ease the admin to monitor comments easily. It also notifies other commenters about any new comments made on a movie review. This helps increase user engagement on the website
 
 5.	The website requires an active internet connection to function. Since it fetches information in real-time. Website heavily relies on JSON parsing via JavaScript. This helps query the database and in turn, receive a response in XML format. This response is parsed and the relevant data is bound to our HTML elements.  
+
+HOW TO RUN:
+Open index.html via any modern browser (with an active internet connection).
